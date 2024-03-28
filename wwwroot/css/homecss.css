@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+section.container {
+    padding: 20px;
+}
+
+.card {
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+.card-body {
+    padding: 20px;
+}
+.divider {
+    border-top: 1px solid #ced4da; /* Change color and thickness as needed */
+    margin-top: 10px; /* Adjust spacing */
+    margin-bottom: 10px; /* Adjust spacing */
+}

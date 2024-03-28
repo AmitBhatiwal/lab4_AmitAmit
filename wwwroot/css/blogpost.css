@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+header {
+    background-color: #2c90f5;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+section.container {
+    padding: 20px;
+}
+footer {
+    background-color: #2c90f5;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.card {
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+.card-body {
+    padding: 20px;
+}
+.divider {
+    border-top: 1px solid #ced4da; /* Change color and thickness as needed */
+    margin-top: 10px; /* Adjust spacing */
+    margin-bottom: 10px; /* Adjust spacing */
+}
+.full-width {
+width: 100%;
+margin: 0;
+padding: 0;
+}
